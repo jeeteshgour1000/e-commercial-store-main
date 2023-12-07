@@ -1,0 +1,25 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 400px) {
+    .icon {
+        size: 10px;
+    }
+   
+}
+@media (min-width: 1055px) {
+    .icon {
+        font-size: 28px;
+    }
+}
+
+.footer{
+    margin-top: auto;
+}
